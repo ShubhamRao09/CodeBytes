@@ -1,6 +1,6 @@
 def find_second_largest(array):
     if len(array) < 2:
-        return "Array should have at least two elements"
+        return "-1"
     
     # Descending order
     sorted_array = sorted(array, reverse=True)
