@@ -8,7 +8,6 @@ def check_sorted_and_rotated(arr):
         if arr[i] > arr[(i + 1) % n]:
             break_count += 1
     
-    
     return break_count == 1
 
 # Arrays
